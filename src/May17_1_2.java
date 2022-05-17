@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Stack implementation in Java
 
 class Stack{
@@ -28,7 +30,6 @@ class Stack{
         }
 
         // insert element on top of stack
-        System.out.println("Inserting "+x);
         arr[++top]=x;
     }
 
@@ -63,26 +64,71 @@ class Stack{
     }
 
     // display elements of stack
-    public void printStack(){
-        for(int i=0; i <= top; i++){
-            System.out.print(arr[i]+", ");
+    // public void printStack(){
+    //     for(int i=0; i <= top; i++){
+    //         System.out.print(arr[i]+", ");
+    //     }
+    // }
+
+    public void shiftHalfElements(Stack x){
+        for(int i=0;i<capacity/2;i++){
+            x.push(this.pop());
         }
     }
 
+    public boolean compare(Stack x){
+        this.shiftHalfElements(x);
+        if(this.capacity==x.capacity){
+            for(int i=0;i<this.capacity;i++){
+                if((this.top==1 || this.top==0 || this.top==8) && (this.top!=x.top)){
+                    return false;
+                }else if(this.top==6&&x.top!=9){
+                    return false;
+                }else if(this.top==9&&x.top!=6){
+                    return false;
+                }
+            }
+        }else if(this.capacity>x.capacity){
+            this.pop();
+            boolean b=compare(x);
+            return b;
+        }
+        return true;
+    }
+
     public static void main(String[] args){
-        Stack stack=new Stack(5);
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        sc.close();
+        int num=n;
 
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
+        int len=0;
+        // length of a number
+        while(num>0){num/=10;len++;}
 
-        System.out.print("Stack: ");
-        stack.printStack();
+        num=n;
+        // creating array with digits
+        int digits[]=new int[len];
+        for(int i=0;i<len;i++){
+            digits[len-i-1]=num%10;
+            num/=10;
+        }
 
-        // remove element from stack
-        stack.pop();
-        System.out.println("\nAfter popping out");
-        stack.printStack();
+        // checking the digits if unflippable ones are present or not
+        for(int i=0;i<len;i++){
+            if(!(digits[i]==0 || digits[i]==1 || digits[i]==6 || digits[i]==8 ||digits[i]==9)){
+                System.out.println("Not a stribochromatic number");return;
+            }
+        }
 
+        Stack s1=new Stack(5);
+        Stack s2=new Stack(5); //empty stack //second stack for comparison
+        for(int i=0;i<len;i++){
+            s1.push(digits[i]);
+        }
+
+        if(s1.compare(s2)){
+            System.out.println(n+" is stribogrammatic number");
+        }
     }
 }
