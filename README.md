@@ -1,6 +1,8 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Owner: Radheshyam Bhagwandas Soni
+Email: radheshyambsoni@yahoo.com
+This is a project folder containing codes and note for Placement Training (PLA1001) - Summer Semester 2021-2022
 
 ## Folder Structure
 

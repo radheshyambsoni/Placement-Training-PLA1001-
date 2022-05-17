@@ -121,8 +121,8 @@ class Stack{
             }
         }
 
-        Stack s1=new Stack(5);
-        Stack s2=new Stack(5); //empty stack //second stack for comparison
+        Stack s1=new Stack(len);
+        Stack s2=new Stack(len); //empty stack //second stack for comparison
         for(int i=0;i<len;i++){
             s1.push(digits[i]);
         }
