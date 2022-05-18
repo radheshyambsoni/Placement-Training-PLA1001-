@@ -1,0 +1,12 @@
+Binary Palindrome
+
+1.take integer input from user
+2.convert the number into Binary
+3.check if the binary value is palindrome or not
+
+
+GCD, HCF
+Euclid's GCD
+
+Booth's algorithm
+used for multiplication of two numbers
