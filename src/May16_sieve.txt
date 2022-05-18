@@ -10,3 +10,6 @@ for(i=2;i<=n;i++){
 }
 
 Segmented Sieve algorithm
+2 I/P - low, high
+array with h-l+1 size
+sieve(2,h^(1/2))

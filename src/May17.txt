@@ -22,5 +22,3 @@ Ex. phi(22) = phi(11)*phi(2) = 10*1 = 10
 but for repitition of a factor m n times we have phi(m^n-m^(n-1))
 ex. phi(44) = phi(11*2*2) = phi(11)*phi(2^2-2) = 10*1 = 10
 ex. phi(49) = phi(7^2-7) = phi(42) = phi(2*3*7) = 1*2*6 = 12
-
-

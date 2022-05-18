@@ -9,7 +9,7 @@ class Stack{
     // represent top of stack
     private int top;
     // total capacity of the stack
-    private int capacity;
+    int capacity;
 
     // Creating a stack
     Stack(int size){
@@ -78,7 +78,7 @@ class Stack{
 
     public boolean compare(Stack x){
         this.shiftHalfElements(x);
-        if(this.capacity==x.capacity){
+        if(this.getSize()==x.getSize()){
             for(int i=0;i<this.capacity;i++){
                 if((this.top==1 || this.top==0 || this.top==8) && (this.top!=x.top)){
                     return false;
@@ -88,7 +88,7 @@ class Stack{
                     return false;
                 }
             }
-        }else if(this.capacity>x.capacity){
+        }else if(this.getSize()>x.getSize()){
             this.pop();
             boolean b=compare(x);
             return b;
@@ -117,7 +117,7 @@ class Stack{
         // checking the digits if unflippable ones are present or not
         for(int i=0;i<len;i++){
             if(!(digits[i]==0 || digits[i]==1 || digits[i]==6 || digits[i]==8 ||digits[i]==9)){
-                System.out.println("Not a stribochromatic number");return;
+                System.out.println("Not a strobochromatic number");return;
             }
         }
 
@@ -128,7 +128,7 @@ class Stack{
         }
 
         if(s1.compare(s2)){
-            System.out.println(n+" is stribogrammatic number");
+            System.out.println(n+" is strobogrammatic number");
         }
     }
 }
