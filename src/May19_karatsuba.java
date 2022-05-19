@@ -24,14 +24,3 @@ public class May19_karatsuba{
         System.out.println(karatsuba(n1, n2));
     }
 }
-// 123
-// 456
-
-// 3
-// 3
-// 12 3
-// 45 6
-
-// 12*45*10^2
-// 
-// 6*3 = 18
