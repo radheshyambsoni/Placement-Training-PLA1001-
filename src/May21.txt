@@ -2,3 +2,4 @@ Maximum Equilibirium in an array
 
 Leaders in an array
 
+Majority number
