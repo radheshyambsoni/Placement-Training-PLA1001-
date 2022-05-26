@@ -1,4 +1,4 @@
-public class May17_3 {
+public class May17_AliceApples {
     public static void main(String[] args) {
         // Alice apple 
         // Minimum number of apples to be collected trees to guarantee M red apples

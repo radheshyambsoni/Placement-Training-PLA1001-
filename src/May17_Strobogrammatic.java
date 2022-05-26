@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class May17_1_1 {
+public class May17_Strobogrammatic {
     public static void main(String[] args) {
-        // stribogrammatic number
+        // strobogrammatic number
         // flippable digits - 0,1,6,8,9
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -23,11 +23,11 @@ public class May17_1_1 {
         // checking the digits if unflippable ones are present or not
         for(int i=0;i<len;i++){
             if(!(digits[i]==0 || digits[i]==1 || digits[i]==6 || digits[i]==8 ||digits[i]==9)){
-                System.out.println("Not a stribochromatic number");return;
+                System.out.println("Not a strobochromatic number");return;
             }
         }
 
-        // checking for stribo chromatic number
+        // checking for strobo chromatic number
         boolean condition=true;
         for(int i=0;i<len/2;i++){
             if(digits[i]==0 || digits[i]==1 || digits[i]==8){
@@ -39,7 +39,7 @@ public class May17_1_1 {
             }
         }
         if(condition){
-            System.out.println(n+" is stribogrammatic number");
+            System.out.println(n+" is strobogrammatic number");
         }
     }
 }

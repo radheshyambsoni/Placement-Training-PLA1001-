@@ -1,4 +1,4 @@
-public class May17_2 {
+public class May17_ChineseRemainderThm {
     public static void main(String[] args) {
         // chinese remainder theorem / remainder theorem / euler's remainder theorem
         // https://www.geeksforgeeks.org/chinese-remainder-theorem-set-1-introduction/
