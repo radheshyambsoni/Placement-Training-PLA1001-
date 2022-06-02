@@ -1,0 +1,6 @@
+Linked List
+1.Loop Detection
+
+2.Sort the bitonic DLL
+
+3.Segregate even and odd nodes in a Linked List
