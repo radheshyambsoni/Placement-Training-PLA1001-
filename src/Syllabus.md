@@ -9,8 +9,8 @@
     2. Time and Space Complexity
 
 ### Math Based Problems
-    1. Simple Sieve
-    2. Segmented & Incremental Sieve
-    3. Euler's Phi Algorithm
-    4. Strobogrammatic Number
-    5. 
+1. Simple Sieve
+2. Segmented & Incremental Sieve
+3. Euler's Phi Algorithm
+4. Strobogrammatic Number
+5. 
