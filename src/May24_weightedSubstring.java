@@ -2,7 +2,7 @@ public class May24_weightedSubstring {
     public static void main(String[] args) {
         String P="Hello";
         int Q[]={9,8,7,6,5};
-        int k=0;
+        int k=24;
         weightedSubstr(P, Q, k);
     }
 
