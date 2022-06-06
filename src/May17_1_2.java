@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Stack implementation in Java
 
-class Stack{
+class myStack{
 
     // store elements of stack
     private int arr[];
@@ -12,7 +12,7 @@ class Stack{
     int capacity;
 
     // Creating a stack
-    Stack(int size){
+    myStack(int size){
         // initialize the array
         // initialize the stack variables
         arr=new int[size];
@@ -70,13 +70,13 @@ class Stack{
     //     }
     // }
 
-    public void shiftHalfElements(Stack x){
+    public void shiftHalfElements(myStack x){
         for(int i=0;i<capacity/2;i++){
             x.push(this.pop());
         }
     }
 
-    public boolean compare(Stack x){
+    public boolean compare(myStack x){
         this.shiftHalfElements(x);
         if(this.getSize()==x.getSize()){
             for(int i=0;i<this.capacity;i++){
@@ -121,8 +121,8 @@ class Stack{
             }
         }
 
-        Stack s1=new Stack(len);
-        Stack s2=new Stack(len); //empty stack //second stack for comparison
+        myStack s1=new myStack(len);
+        myStack s2=new myStack(len); //empty stack //second stack for comparison
         for(int i=0;i<len;i++){
             s1.push(digits[i]);
         }

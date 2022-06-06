@@ -1,4 +1,7 @@
 public class Jun02_DLL {
+    // Initially, heade and tail is set to null
+    Node head, tail = null;
+    
     static class Node {
         int data;
         Node prev;
@@ -8,9 +11,6 @@ public class Jun02_DLL {
             this.data = data;
         }
     }
-
-    // Initially, heade and tail is set to null
-    Node head, tail = null;
 
     // add a node to the list
     public void addNode(int data) {
