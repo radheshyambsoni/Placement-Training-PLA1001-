@@ -1,6 +1,0 @@
-Graph Coloring
-https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/?ref=gcse
-
-Activity Selection Problem
-
-Huffman Coding
