@@ -1,4 +1,6 @@
-public class Jun02_DLL {
+package June2022.June02;
+
+public class DLL {
     // Initially, heade and tail is set to null
     Node head, tail = null;
     
@@ -95,7 +97,7 @@ public class Jun02_DLL {
     
     public static void main(String[] args) {
         // create a DoublyLinkedList object
-        Jun02_DLL dll1 = new Jun02_DLL();
+        DLL dll1 = new DLL();
         // Add nodes to the list
         dll1.addNode(10);
         dll1.addNode(20);
