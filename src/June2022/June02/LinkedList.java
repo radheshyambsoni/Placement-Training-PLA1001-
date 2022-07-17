@@ -1,4 +1,6 @@
-public class Jun02_LinkedList {
+package June2022.June02;
+
+public class LinkedList {
     Node head;
 
     static class Node {
@@ -66,7 +68,7 @@ public class Jun02_LinkedList {
     }
 
     public static void main(String[] args) {
-        Jun02_LinkedList l1 = new Jun02_LinkedList();
+        LinkedList l1 = new LinkedList();
         l1.insert(1);
         l1.insert(2);
         l1.insert(3);
