@@ -1,0 +1,280 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch May25_MoveHyphen",
+            "request": "launch",
+            "mainClass": "May25_MoveHyphen",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveHyphen",
+            "request": "launch",
+            "mainClass": "MoveHyphen",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jun03_mergeSortDLL",
+            "request": "launch",
+            "mainClass": "Jun03_mergeSortDLL",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch t11",
+            "request": "launch",
+            "mainClass": "t11",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jun02_DLL",
+            "request": "launch",
+            "mainClass": "Jun02_DLL",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jun02_LinkedList",
+            "request": "launch",
+            "mainClass": "Jun02_LinkedList",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May13",
+            "request": "launch",
+            "mainClass": "May13",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May16_segSieve",
+            "request": "launch",
+            "mainClass": "May16_segSieve",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May16_sieve",
+            "request": "launch",
+            "mainClass": "May16_sieve",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May17_AliceApples",
+            "request": "launch",
+            "mainClass": "May17_AliceApples",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May17_ChineseRemainderThm",
+            "request": "launch",
+            "mainClass": "May17_ChineseRemainderThm",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May17_Strobogrammatic",
+            "request": "launch",
+            "mainClass": "May17_Strobogrammatic",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May18_EuclideanGCD",
+            "request": "launch",
+            "mainClass": "May18_EuclideanGCD",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May18_GCD",
+            "request": "launch",
+            "mainClass": "May18_GCD",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May18_binaryPalindrome",
+            "request": "launch",
+            "mainClass": "May18_binaryPalindrome",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May19_karatsuba",
+            "request": "launch",
+            "mainClass": "May19_karatsuba",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May19_maxLengthSequence",
+            "request": "launch",
+            "mainClass": "May19_maxLengthSequence",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May19_swapNibble",
+            "request": "launch",
+            "mainClass": "May19_swapNibble",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May20_MaxHourglassSum",
+            "request": "launch",
+            "mainClass": "May20_MaxHourglassSum",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May20_blockSwap",
+            "request": "launch",
+            "mainClass": "May20_blockSwap",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May20_maxProdSubarr",
+            "request": "launch",
+            "mainClass": "May20_maxProdSubarr",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May21_MajorityElement",
+            "request": "launch",
+            "mainClass": "May21_MajorityElement",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May21_leaders",
+            "request": "launch",
+            "mainClass": "May21_leaders",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May21_maxEqbInArr",
+            "request": "launch",
+            "mainClass": "May21_maxEqbInArr",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May23_Lexi1stPalindStr",
+            "request": "launch",
+            "mainClass": "May23_Lexi1stPalindStr",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May23_quickSort",
+            "request": "launch",
+            "mainClass": "May23_quickSort",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May23_selectionSort",
+            "request": "launch",
+            "mainClass": "May23_selectionSort",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May24_weightedSubstring",
+            "request": "launch",
+            "mainClass": "May24_weightedSubstring",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May25_ManeuveringCave",
+            "request": "launch",
+            "mainClass": "May25_ManeuveringCave",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May25_sortedUniquePermut",
+            "request": "launch",
+            "mainClass": "May25_sortedUniquePermut",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May30_Josephus",
+            "request": "launch",
+            "mainClass": "May30_Josephus",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May30_NQueens",
+            "request": "launch",
+            "mainClass": "May30_NQueens",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch May30_RatRace",
+            "request": "launch",
+            "mainClass": "May30_RatRace",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "Stack",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Codes_74162406"
+        },
+        {
+            "type": "java",
+            "name": "Launch t23",
+            "request": "launch",
+            "mainClass": "t23",
+            "projectName": "Codes_74162406"
+        }
+    ]
+}

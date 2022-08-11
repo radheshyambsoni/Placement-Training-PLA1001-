@@ -1,0 +1,19 @@
+Time & Space Complexity
+Big Oh Notation - widely used one
+Omega and Theta - rarely used
+
+O(n) - Linear - Perfect diagonal line (y=x)
+int n=10,m=10;
+// for(int i=0;i<n/2;i+=2){ //(n/4)+1 times
+//     // code //n/4 times
+// }
+
+O((n+1)*(m+1))=O(n*m)
+for(int i=0;i<n;i++){ //n+1 times
+    // n times
+    for(int j=0;j<m;j++){ //m+1 times
+        // code //m times
+    }
+}
+        
+O(1) - straigt line parallel to x-axis (y=a)

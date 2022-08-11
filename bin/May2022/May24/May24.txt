@@ -1,0 +1,5 @@
+Weighted substrings
+
+move hyphen to beginning
+
+Mancher's algorithm
